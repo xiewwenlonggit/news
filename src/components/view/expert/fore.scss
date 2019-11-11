@@ -1,0 +1,22 @@
+.forecast {
+  .am-navbar-light {
+    height: 120px;
+  }
+  .am-navbar-left {
+    span {
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .am-navbar-light .am-navbar-title {
+    font-size: 34px;
+  }
+  .am-navbar-right {
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+}

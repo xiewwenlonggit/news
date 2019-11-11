@@ -1,0 +1,41 @@
+h1 {
+  font-size: 20px;
+  text-align: center;
+}
+h2,
+h3 {
+  text-align: left;
+  font-size: 36px;
+  margin: 44px 22px;
+}
+.topNews {
+  li {
+    border-bottom: 1px solid #ccc;
+    height: 130px;
+    margin-top: 20px;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      width: 206px;
+      height: 120px;
+      float: left;
+    }
+    p {
+      position: absolute;
+      right: 22px;
+      top: 22px;
+      font-size: 26px;
+    }
+    span {
+      position: absolute;
+      display: block;
+      top: 66px;
+      right: 22px;
+      margin-top: 20px;
+      float: right;
+    }
+  }
+}

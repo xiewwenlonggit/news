@@ -1,0 +1,48 @@
+.am-wingblank.am-wingblank-lg {
+  margin: 0;
+  width: 100%;
+  .slider {
+    ul {
+      li {
+        img {
+          height: 300px;
+        }
+      }
+    }
+  }
+}
+.tip {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+  li {
+    float: left;
+    p {
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
+.am-notice-bar {
+  svg {
+    width: 80px;
+  }
+  height: 60px;
+}
+.my-carousel .v-item {
+  height: 40px;
+  padding: 10px;
+  ul {
+    li {
+      float: left;
+      width: 40px;
+      height: 40px;
+      background: #0f0;
+      margin-right: 10px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+    }
+  }
+}
